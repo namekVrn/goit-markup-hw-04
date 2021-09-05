@@ -85,6 +85,17 @@ header{
     padding-bottom: 32px;
     display: block;
 }
+.list > li{
+    position: relative;
+}
+.list > li:hover:before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: var(--style-color);
+    position: absolute;
+    bottom: 0px;
+}
 .list-link:hover{
     color: var(--style-color);
 }
