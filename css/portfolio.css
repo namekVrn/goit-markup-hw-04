@@ -202,6 +202,7 @@ header{
     color:#fff;
     background:var(--style-color);
     cursor:pointer;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .page-cards{
@@ -226,10 +227,14 @@ header{
     margin-right: 30px;
     transition: .3s;
 }
-.page-items:hover{
-    transition: .3s;
+.pageitems-link{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.pageitems-link:hover, pageitems-link:focus {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    
+    transition: .3s;
 }
 .page-items img {
     display: block;
